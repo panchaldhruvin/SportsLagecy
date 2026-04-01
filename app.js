@@ -70,20 +70,20 @@ const sportsData = [
         legends: ["Michael Schumacher", "Ayrton Senna", "Lewis Hamilton", "Niki Lauda"],
         fact: "An F1 driver loses about 3-4kg of body weight during a single race due to G-forces."
     },
-    {
-        name: "Rugby",
-        icon: "🏉",
-        category: "Team Sport",
-        description: "A high-intensity contact sport where players carry an oval ball and attempt to score tries by grounding it in the opponent's end zone.",
-        origin: "1823, England",
-        players: "15 per team (Union)",
-        duration: "80 Minutes",
-        rules: "No forward passing. Tackling allowed. Tries are worth 5 points, conversions 2, and penalties 3.",
-        equipment: ["Rugby ball", "Mouthguard", "Studded boots"],
-        tournaments: ["Rugby World Cup", "Six Nations", "The Rugby Championship"],
-        legends: ["Jonah Lomu", "Richie McCaw", "Dan Carter", "Bryan Habana"],
-        fact: "The Rugby World Cup trophy is known as the Webb Ellis Cup."
-    },
+        {
+    name: "Snooker",
+    icon: "🎱",
+    category: "Cue Sport",
+    description: "Snooker ek indoor cue sport hai jo green table par khela jata hai jisme players cue stick se balls ko pockets me daalte hai aur points score karte hai.",
+    origin: "1875, India (British Army officers)",
+    players: "1 vs 1 (Singles)",
+    duration: "Variable (Frames based game)",
+    rules: "Players alternate turns lete hai aur red aur colored balls ko specific order me pocket karke points score karte hai. Maximum break 147 hota hai.",
+    equipment: ["Cue stick", "Snooker balls", "Snooker table", "Chalk"],
+    tournaments: ["World Snooker Championship", "UK Championship", "Masters"],
+    legends: ["Ronnie O’Sullivan", "Stephen Hendry", "Steve Davis", "John Higgins"],
+    fact: "Snooker ka maximum score ek frame me 147 hota hai, jise maximum break kehte hai."
+},
     {
         name: "Golf",
         icon: "⛳",
