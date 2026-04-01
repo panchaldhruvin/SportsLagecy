@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Lagecy | The Elite Sports Encyclopedia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-radial"></div>
+    <div class="animated-bg">
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+    </div>
+
+    <header>
+        <div class="container header-content">
+            <h1 class="logo">Sports<span>Lagecy</span></h1>
+            <div class="search-wrapper">
+                <input type="text" id="sportSearch" placeholder="Search for a sport (e.g., Rugby, Chess, Golf)...">
+                <button id="searchBtn" aria-label="Search">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor"
+                            d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="resultsSection" class="results-section hidden">
+            <button id="backBtn" class="back-btn">
+                <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
+                Back to Home
+            </button>
+
+            <div class="sport-card glass">
+                <div class="sport-header">
+                    <div class="sport-title-group">
+                        <span class="category-tag" id="sportCategory"></span>
+                        <h2 id="sportNameDisplay"></h2>
+                    </div>
+                </div>
+
+                <div class="sport-grid">
+                    <div class="sport-main-info">
+    
+                <div class="info-block">
+            <h3><span class="icon">📖</span> Overview</h3>
+                    <p id="sportDesc"></p>
+                            </div>
+                            
+    <div class="info-block mt-2">
+        <h3><span class="icon">📜</span> History & Creation</h3>
+        <p id="sportHistory"></p>
+    </div>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <span class="stat-label">Origin</span>
+                                <span class="stat-value" id="sportOrigin"></span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Players</span>
+                                <span class="stat-value" id="sportPlayers"></span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Duration</span>
+                                <span class="stat-value" id="sportDuration"></span>
+                            </div>
+                        </div>
+
+                        <div class="info-block mt-2">
+                            <h3><span class="icon">📜</span> Core Rules</h3>
+                            <p id="sportRules"></p>
+                        </div>
+                    </div>
+
+                    <div class="sport-side-info">
+                        <div class="detail-block glass-inset">
+                            <h3><span class="icon">🛠️</span> Equipment</h3>
+                            <ul id="sportEquipment"></ul>
+                        </div>
+
+                        <div class="detail-block glass-inset">
+                            <h3><span class="icon">🏆</span> Major Tournaments</h3>
+                            <ul id="sportTournaments"></ul>
+                        </div>
+
+                        <div class="detail-block glass-inset">
+                            <h3><span class="icon">🌟</span> Famous Legends</h3>
+                            <ul id="sportLegends"></ul>
+                        </div>
+
+                        <div class="detail-block fact-block">
+                            <h3><span class="icon">💡</span> Fun Fact</h3>
+                            <p id="sportFact" class="fact-text"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="welcomeSection" class="welcome-section">
+            <div class="welcome-content">
+                <div class="hero-badge">Curated Knowledge</div>
+                <h2>The World's <span>Elite</span> Sports Hub</h2>
+                <p>Select a sport below to discover its history, intricate rules, and legendary figures.</p>
+
+                <div class="sports-menu-container">
+                    <div id="sportsMenuGrid" class="sports-grid-menu">
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="notFound" class="not-found hidden">
+            <div class="glass error-card">
+                <div class="error-icon">⚠️</div>
+                <p>Knowledge not found. Try searching for "Rugby", "Golf", or "Badminton".</p>
+                <button onclick="location.reload()" class="retry-btn">Back to Home</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content container">
+            <div class="footer-logo">Sports<span>Lagecy</span></div>
+            <p>&copy; 2026 Sportslagecy Elite. All rights reserved.</p>
+            <div class="footer-links">
+                <span>Precision</span> • <span>Knowledge</span> • <span>Passion</span>
+            </div>
+        </div>
+    </footer>
+
+    <div id="aiChatbot" class="chatbot-container glass hidden-bot">
+        <div class="chatbot-header">
+            <div class="bot-info">
+                <span class="bot-status"></span>
+                <h4>SportSphere AI</h4>
+            </div>
+            <button id="closeChat"><svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></button>
+        </div>
+        <div id="chatMessages" class="chat-messages">
+            <div class="message bot-message">Hello! I'm your SportSphere Assistant. Ask me anything about sports!</div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="chatInput" placeholder="Ask about rules, legends, or facts...">
+            <button id="sendChat"><svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg></button>
+        </div>
+    </div>
+
+    <button id="chatbotToggle" class="chatbot-toggle">
+        <span class="pulse"></span>
+        <svg viewBox="0 0 24 24" width="28" height="28"><path fill="currentColor" d="M12 2C6.47 2 2 6.47 2 12c0 2.02.6 3.9 1.61 5.48l-.94 3.45c-.13.46.3.89.76.76l3.45-.94C8.47 21.39 10.16 22 12 22c5.53 0 10-4.47 10-10S17.53 2 12 2zm0 18c-1.74 0-3.32-.53-4.63-1.42l-.24-.16-2.43.66.66-2.43-.16-.24C4.33 15.1 3.8 13.62 3.8 12c0-4.52 3.68-8.2 8.2-8.2s8.2 3.68 8.2 8.2-3.68 8.2-8.2 8.2z"/></svg>
+    </button>
+
+    <script src="app.js"></script>
+</body>
+</html>

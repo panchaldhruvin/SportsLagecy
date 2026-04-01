@@ -1,0 +1,5 @@
+Project Definition :-
+This project aims to develop a web-based platform that provides detailed information about various sports and the equipment used in them. The website will collect and organize data related to different sports items and their usage. the unique feature of this website is its ability to identify a single piece of sports equipment and suggest multiple sports or games that can be played using it. For example, a football can be used in football, handball, and futsal. the website will help users such as students, athletes, and sports enthusiasts to explore different sports and understand the versatility of sports equipment. It will be accessible through web browsers on devices like desktops, tablets, and mobile phones, without requiring any mobile application installation.
+
+group Details :- Dhruvin Panchal
+		 Vankar Pruthviraj
