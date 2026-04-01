@@ -70,7 +70,7 @@ const sportsData = [
         legends: ["Michael Schumacher", "Ayrton Senna", "Lewis Hamilton", "Niki Lauda"],
         fact: "An F1 driver loses about 3-4kg of body weight during a single race due to G-forces."
     },
-        {
+  {
     name: "Snooker",
     icon: "🎱",
     category: "Cue Sport",
@@ -83,7 +83,7 @@ const sportsData = [
     tournaments: ["World Snooker Championship", "UK Championship", "Masters"],
     legends: ["Ronnie O’Sullivan", "Stephen Hendry", "Steve Davis", "John Higgins"],
     fact: "Snooker ka maximum score ek frame me 147 hota hai, jise maximum break kehte hai."
-},
+    },
     {
         name: "Golf",
         icon: "⛳",
@@ -223,7 +223,119 @@ const sportsData = [
         tournaments: ["Tour de France", "Giro d'Italia", "UCI World Championships"],
         legends: ["Eddy Merckx", "Chris Froome", "Marianne Vos", "Tadej Pogačar"],
         fact: "The Tour de France covers approximately 3,500 kilometers over 21 stages."
-    }
+    },
+    {
+    name: "Hockey",
+    icon: "🏑",
+    category: "Team Sport",
+    description: "A fast-paced outdoor sport played with sticks and a ball, where two teams try to score goals by hitting the ball into the opponent's net.",
+    origin: "Ancient Egypt / Modern England",
+    players: "11 per team",
+    duration: "60 Minutes",
+    rules: "Ball ko stick se hit karna hota hai. Feet use nahi kar sakte. Goals opponent ke net me score hote hai.",
+    equipment: ["Hockey stick", "Ball", "Shin guards", "Mouthguard"],
+    tournaments: ["Hockey World Cup", "Olympics", "Pro League"],
+    legends: ["Dhyan Chand", "Jamie Dwyer", "Teun de Nooijer", "Ric Charlesworth"],
+    fact: "Major Dhyan Chand ko 'Wizard of Hockey' kaha jata hai."
+},
+{
+    name: "Karate",
+    icon: "🥋",
+    category: "Martial Art",
+    description: "A traditional Japanese martial art focused on striking techniques like punches, kicks, and blocks.",
+    origin: "Okinawa, Japan",
+    players: "Individual",
+    duration: "3 Minutes",
+    rules: "Points milte hai clean strikes ke liye. Illegal moves allowed nahi hote.",
+    equipment: ["Karate uniform (Gi)", "Belt", "Gloves"],
+    tournaments: ["World Karate Championship", "Olympics"],
+    legends: ["Rafael Aghayev", "Antonio Diaz"],
+    fact: "Karate 2020 Tokyo Olympics me include hua tha."
+},
+{
+    name: "Badminton",
+    icon: "🏸",
+    category: "Racket Sport",
+    description: "A fast indoor game played using rackets to hit a shuttlecock over a net.",
+    origin: "British India",
+    players: "1 or 2 per side",
+    duration: "30-60 Minutes",
+    rules: "Shuttle ground pe nahi girni chahiye. First to 21 points wins.",
+    equipment: ["Racket", "Shuttlecock", "Net"],
+    tournaments: ["All England Open", "Olympics", "BWF World Championship"],
+    legends: ["Lin Dan", "P.V. Sindhu", "Lee Chong Wei"],
+    fact: "Fastest smash 400 km/h se zyada record hua hai."
+},
+{
+    name: "Kabaddi",
+    icon: "🤼",
+    category: "Team Sport",
+    description: "An Indian contact sport where a player raids the opponent's half to tag players and return safely.",
+    origin: "Ancient India",
+    players: "7 per team",
+    duration: "40 Minutes",
+    rules: "Raider ko 'kabaddi kabaddi' bolte hue opponent ko touch karke wapas aana hota hai.",
+    equipment: ["Court", "Jersey"],
+    tournaments: ["Pro Kabaddi League", "Asian Games"],
+    legends: ["Anup Kumar", "Rahul Chaudhari"],
+    fact: "Kabaddi India ka traditional sport hai."
+},
+{
+    name: "Polo",
+    icon: "🐎",
+    category: "Team Sport",
+    description: "A traditional horseback sport where players use mallets to hit a ball into the opponent's goal while riding horses.",
+    origin: "Ancient Persia",
+    players: "4 per team",
+    duration: "1-2 Hours",
+    rules: "Players horseback pe rehte hai aur ball ko goal me hit karte hai. Horse control important hota hai.",
+    equipment: ["Horse", "Mallet", "Ball", "Helmet"],
+    tournaments: ["Argentine Open", "US Open Polo Championship"],
+    legends: ["Adolfo Cambiaso", "Facundo Pieres"],
+    fact: "Polo ko 'King of Games' bhi kaha jata hai."
+},
+{
+    name: "Rowing",
+    icon: "🚣",
+    category: "Water Sport",
+    description: "A sport where athletes race boats using oars on water, requiring strength and teamwork.",
+    origin: "Ancient Egypt",
+    players: "Individual / Team",
+    duration: "5-8 Minutes",
+    rules: "Fastest boat finish line cross karega wo winner hota hai.",
+    equipment: ["Boat", "Oars", "Life jacket"],
+    tournaments: ["Olympics", "World Rowing Championship"],
+    legends: ["Steve Redgrave", "Olaf Tufte"],
+    fact: "Rowing Olympics ke oldest sports me se ek hai."
+},
+{
+    name: "Skateboarding",
+    icon: "🛹",
+    category: "Extreme Sport",
+    description: "A modern sport where riders perform tricks and stunts using a skateboard.",
+    origin: "USA",
+    players: "Individual",
+    duration: "Variable",
+    rules: "Judges tricks, balance aur style ke basis pe score dete hai.",
+    equipment: ["Skateboard", "Helmet", "Knee pads"],
+    tournaments: ["X Games", "Olympics"],
+    legends: ["Tony Hawk", "Nyjah Huston"],
+    fact: "Skateboarding Tokyo 2020 Olympics me include hua."
+},
+{
+    name: "Rugby",
+    icon: "🏉",
+    category: "Team Sport",
+    description: "A high-contact team sport where players carry an oval ball and score by grounding it in the opponent's area.",
+    origin: "England",
+    players: "15 per team",
+    duration: "80 Minutes",
+    rules: "Forward pass allowed nahi hota. Tackling allowed hota hai.",
+    equipment: ["Rugby ball", "Mouthguard", "Boots"],
+    tournaments: ["Rugby World Cup", "Six Nations"],
+    legends: ["Jonah Lomu", "Richie McCaw"],
+    fact: "Rugby ka naam Rugby School se aaya hai."
+}
 ];
 
 // DOM Elements
