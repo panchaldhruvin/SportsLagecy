@@ -6,5 +6,5 @@ SportsLegacy is a web-based information platform designed to collect, organize, 
 
 The platform empowers users to explore the world of sports in a smarter, more connected way, bridging the gap between equipment knowledge and game discove
 
-Here is the website demo link :- <"https://codesandbox.io/p/sandbox/github/panchaldhruvin/SportsLagecy/tree/main">
+Here is the website demo link :- https://codesandbox.io/p/sandbox/github/panchaldhruvin/SportsLagecy/tree/main
 
